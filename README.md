@@ -49,9 +49,11 @@ Quick smoke tests for data pipelines
 
 BI pre-processing (Metabase, Tableau, Looker)
 
-📸 Output Preview
+## 🖼️ Output Preview
+
 Below is a snapshot of the resulting SQLite table from the sample CSV:
-<img width="685" height="195" alt="output_preview" src="https://github.com/user-attachments/assets/d47f438a-4c78-4e3d-9668-fa32e12a7d67" />
+
+![Output Screenshot](output_preview.png)
 
 
 🛠 Built With
