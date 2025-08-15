@@ -53,7 +53,8 @@ BI pre-processing (Metabase, Tableau, Looker)
 
 Below is a snapshot of the resulting SQLite table from the sample CSV:
 
-![Output Screenshot](output_preview.png)
+![Output Screenshot](https://raw.githubusercontent.com/andreadeyemi/csv-to-sqlite/main/output_preview.png)
+
 
 
 🛠 Built With
