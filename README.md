@@ -50,3 +50,10 @@ sqlite3
 
 Standard libraries only
 
+---
+
+## 🖼️ Output Preview
+
+Below is a snapshot of the resulting SQLite database from a sample CSV:
+
+![Output Screenshot](output_preview.png)
