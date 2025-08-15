@@ -16,10 +16,10 @@ This utility cleans them up and instantly converts them into `.db` files for fas
 
 ## ⚙️ Features
 
-- 📦 One-command conversion from `.csv` to `.db`
-- 🧹 Cleans headers, drops null rows, trims whitespace
-- 🧠 Auto-infers schema using SQLite engine
-- 🔎 Ideal for data ingestion, pre-BI prep, and debugging pipelines
+- 📦 One-command conversion from `.csv` to `.db`  
+- 🧹 Cleans headers, drops null rows, trims whitespace  
+- 🧠 Auto-infers schema using SQLite engine  
+- 🔎 Ideal for data ingestion, pre-BI prep, and debugging pipelines  
 - 🪶 No heavy dependencies — uses standard libraries + `sqlite3`
 
 ---
@@ -32,11 +32,8 @@ python convert_to_sqlite.py sample.csv output.db
 bash
 Copy
 Edit
-# Clone the repo
 git clone https://github.com/andreadeyemi/csv-to-sqlite.git
 cd csv-to-sqlite
-
-# Run the script with any .csv file
 python3 convert_to_sqlite.py sample.csv output.db
 🧠 Use Cases
 SaaS customer onboarding automations
@@ -49,14 +46,6 @@ Quick smoke tests for data pipelines
 
 BI pre-processing (Metabase, Tableau, Looker)
 
-## 🖼️ Output Preview
-
-Below is a snapshot of the resulting SQLite table from the sample CSV:
-
-![Output Screenshot](https://raw.githubusercontent.com/andreadeyemi/csv-to-sqlite/main/output_preview.png)
-
-
-
 🛠 Built With
 Python 3.8+
 
@@ -65,19 +54,18 @@ sqlite3
 Zero external dependencies
 
 📁 File Structure
-arduino
+bash
 Copy
 Edit
-├── convert_to_sqlite.py     # main script
-├── sample.csv               # input sample data
-├── output_preview.png       # visual SQLite result
-├── README.md
-├── LICENSE
-├── requirements.txt
+├── convert_to_sqlite.py     # main script  
+├── sample.csv               # input sample data  
+├── README.md  
+├── LICENSE  
+├── requirements.txt  
 🧱 About the Author
 André Adeyemi
 Customer Success & SaaS Engineering | Python • APIs • BI • Automation
-🔗 LinkedIn | (https://linkedin.com/in/andre-adeyemi)
+🔗 LinkedIn
 
 🪪 License
-MIT – free to use, adapt, and share.
+MIT — free to use, adapt, and share.
